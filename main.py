@@ -5,7 +5,7 @@
 def vampireNumber(fang1, fang2):
   fang1_str = str(fang1)
   fang2_str = str(fang2)
-  product_str = str(fang1 * fang2)
+  product_str = str(fang1 * fang2) 
   if len(fang1_str) + len(fang2_str) != len(product_str):
         return False
   return True
